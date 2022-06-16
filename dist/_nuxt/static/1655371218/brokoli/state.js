@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1655371218",layout:"default",error:a,serverRendered:true,routePath:"\u002FBrokoli",config:{_app:{basePath:"\u002F",assetsPath:"\u002F_nuxt\u002F",cdnURL:a},content:{dbHash:"13534a33"}},apollo:{defaultClient:Object.create(null)}}}(null));
