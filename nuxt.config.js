@@ -18,7 +18,10 @@ export default {
         src: 'https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js',
       },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', type: 'css', href: 'https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css' }
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
