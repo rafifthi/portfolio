@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Ladi';
+  src: url('../fonts/Ladi-Gross.otf');
+}
+
+@font-face {
+  font-family: 'SFPro';
+  src: url('../fonts/SF-Pro-Display-Ultralight.otf');
+  font-weight: 200;
+  font-stlye: normal;
+}
+
+@font-face {
+  font-family: 'SFPro';
+  src: url('../fonts/SF-Pro-Display-Regular.otf');
+  font-weight: 400;
+  font-stlye: normal;
+}
+
+@font-face {
+  font-family: 'SFPro';
+  src: url('../fonts/SF-Pro-Display-Semibold.otf');
+  font-weight: 600;
+  font-stlye: normal;
+}
+
+@font-face {
+  font-family: 'SFPro';
+  src: url('../fonts/SF-Pro-Display-Bold.otf');
+  font-weight: 700;
+  font-stlye: normal;
+}
+
+body {
+  font-family: 'SFPro', -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Ubuntu;
+}
+
+h1 {
+  @apply text-7xl lg:text-9xl font-medium;
+}
+
+h2 {
+  @apply text-4xl lg:text-5xl font-bold tracking-tight;
+}
+
+h3 {
+  @apply text-2xl lg:text-4xl font-bold tracking-wide;
+}
+
+h4 {
+  @apply text-base lg:text-xl font-bold tracking-wide;
+}
+
+.body-large {
+  @apply text-lg text-slate-500 font-medium leading-loose;
+}
+
+.desc {
+  @apply text-lg text-black font-semibold leading-relaxed;
+}
+
+.subtitle {
+  @apply text-primary text-2xl font-semibold;
+}
+
+.footnote {
+  @apply font-medium text-sm lg:text-base;
+}
+
+
+.hamburger-line {
+  @apply w-[30px] h-[2px] my-2 block bg-black;
+}
+
+.hamburger-active > span:nth-child(1) {
+  @apply rotate-45;
+}
+
+.hamburger-active > span:nth-child(2) {
+  @apply scale-0;
+}
+
+.hamburger-active > span:nth-child(3) {
+  @apply -rotate-45;
+}
+
+.card-project-small {
+  @apply bg-cover h-[624px] md:col-span-2 rounded-3xl hover:scale-[1.02] transition duration-300 ease-in-out;
+}
+
+.card-project-large {
+  @apply bg-cover h-[624px] md:col-span-2 lg:col-span-3 rounded-3xl hover:scale-[1.02] transition duration-300 ease-in-out;
+}
+
+.card-project-long {
+  @apply bg-cover h-[312px] col-span-full rounded-3xl hover:scale-[1.02] transition duration-300 ease-in-out;
+}
+
+.card-trivia {
+  @apply bg-cover bg-center rounded-3xl relative hover:scale-[1.02] transition duration-300 ease-in-out;
+}
+
+a.nuxt-link-active {
+  text-decoration: underline;
+}
+/* exact link will show the primary color for only the exact matching link */
+a.nuxt-link-exact-active {
+  color: #0133fa;
+}
+
+.visual {
+  font-family: 'Ladi';
+}
