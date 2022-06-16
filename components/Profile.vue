@@ -9,7 +9,7 @@
     <div class="max-w-lg self-center">
       <h2 class="mb-4">Howdy! I'm Rafif</h2>
       <div class="subtitle mb-12">
-        I'm a designer, developer, and a philantropist.
+        I'm a designer, developer, and a huge nerd.
       </div>
       <div class="grid gap-4 text-lg text-slate-500">
         <p>
