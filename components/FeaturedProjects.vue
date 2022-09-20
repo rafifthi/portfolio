@@ -66,7 +66,7 @@
     </a>
 
     <a class="bg-slate-200 card-project-small hover:cursor-not-allowed">
-      <div class="text-7xl text-slate-300 px-6 py-4">I WILL FILL THIS SECTION SOMEDAY</div>
+      <div class="break-words text-7xl text-slate-300 px-6 py-4">I WILL FILL THIS SECTION SOMEDAY</div>
       <!-- <p class="p-6">
         Brokoli
         <svg

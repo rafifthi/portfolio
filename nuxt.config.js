@@ -9,7 +9,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'Rafif Fathi designs interfaces, systems and products.',
+        content: 'Rafif Fathi designs interfaces, graphics and products.',
       },
       { name: 'format-detection', content: 'telephone=no' },
     ],
@@ -62,9 +62,20 @@ export default {
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
-    manifest: {
+    meta: {
+      title: 'Rafif Fathi - Visual Designer',
+      author: 'Rafif Fathi',
+      description: 'Rafif Fathi designs interfaces, graphics and products.',
+      theme_color: '#00ADC7',
       lang: 'en',
-      class: 'scroll-smooth',
+      ogHost: 'rafifthi.netlify.app'
+    },
+    manifest: {
+      name: 'Rafif Fathi - Visual Designer',
+      short_name: 'Rafif Fathi',
+      theme_color: '#00ADC7',
+      description: 'Rafif Fathi designs interfaces, graphics and products.',
+      lang: 'en',
     },
   },
 

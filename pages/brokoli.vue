@@ -5,10 +5,11 @@
       class="grid bg-gradient-to-r from-rose-100 to-teal-100 lg:grid-cols-2 pt-48 xl:pt-52"
     >
       <div class="px-6 lg:px-12">
-        <h2 class="mb-72">
+        <h2 class="lg:mb-60">
           Brokoli elevates your music discovery experience to a whole new level.
         </h2>
-        <ul>
+        <img class="max-h-[800px] block lg:hidden mt-12" src="../assets/img/brokoli-mockup-1.png" alt="" />
+        <ul class="py-12 lg:py-0">
           <li>Timeline <span class="font-semibold">12 Weeks</span></li>
           <li>Team <span class="font-semibold">Myself</span></li>
           <li>
@@ -19,7 +20,7 @@
           </li>
         </ul>
       </div>
-      <img class="h-[800px]" src="../assets/img/brokoli-mockup-1.png" alt="" />
+      <img class="max-h-[800px] hidden lg:block" src="../assets/img/brokoli-mockup-1.png" alt="" />
     </div>
     <div class="container">
       <!-- Project Vision -->
@@ -55,7 +56,7 @@
             internal questions.
           </div>
         </div>
-        <div class="grid grid-cols-3 gap-12 xl:px-12">
+        <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-12 xl:px-12">
           <div class="flex items-center">
             <div class="w-1 h-12 bg-green-500 mr-3"></div>
             <div class="body-large">"Who is our primary audience?"</div>
@@ -100,7 +101,7 @@
             Surveys and interviews with 10 participants who currently are active
             users of Spotify.
           </div>
-          <div class="grid grid-cols-3 gap-8">
+          <div class="grid md:grid-cols-3 gap-8">
             <div class="p-4 border-2 rounded-xl bg-white">
               <div class="text-dark text-2xl font-semibold mb-2">01</div>
               <div class="text-sm">
@@ -125,9 +126,9 @@
         </div>
       </div>
       <!-- Preliminary Ideation -->
-      <div class="grid gap-12 grid-cols-2 items-center mt-24 p-12">
-        <img src="../assets/img/brokoli_ideation.png" alt="" />
-        <div class="">
+      <div class="grid gap-12 lg:grid-cols-2 items-center mt-24 p-12">
+        <img src="../assets/img/brokoli_ideation.png" alt="" class="order-2" />
+        <div class="lg:order-2">
           <h4 class="mb-4 text-green-500">2/7 Preliminary Ideation</h4>
           <div class="body-large">
             Affinity mapping used to identify not only the general scope of
@@ -152,7 +153,7 @@
         <img src="" alt="" />
       </div>
       <!-- Journey Map -->
-      <div class="grid justify-items-center mt-24 p-12">
+      <div class="grid justify-items-center mt-12 lg:mt-24 p-12">
         <div class="max-w-3xl">
           <h4 class="text-green-500">4/7 Journey Map</h4>
           <div class="desc mb-4">
@@ -166,7 +167,7 @@
         </div>
       </div>
       <!-- System Architecture -->
-      <div class="grid justify-items-center mt-24 p-12">
+      <div class="grid justify-items-center mt-12 lg:mt-24 p-12">
         <div class="max-w-3xl">
           <h4 class="text-green-500">5/7 System Architecture</h4>
           <div class="desc mb-4">
@@ -180,7 +181,7 @@
         </div>
       </div>
       <!-- Lo-Fi Ideation -->
-      <div class="grid gap-12 grid-cols-2 mt-24 p-12">
+      <div class="grid gap-12 lg:grid-cols-2 mt-12 lg:mt-24 p-12">
         <div class="">
           <h4 class="mb-4 text-green-500">6/7 Lo-Fi Ideation</h4>
           <div class="body-large">
@@ -193,10 +194,10 @@
       </div>
       <!-- Preliminary Wireframes -->
       <div
-        class="grid items-center gap-20 bg-slate-50 rounded-2xl grid-cols-2 mt-24 p-12"
+        class="grid items-center gap-20 bg-slate-50 rounded-2xl lg:grid-cols-2 mt-24 p-12"
       >
-        <img src="../assets/img/brokoli-wireframe.png" alt="" />
-        <div class="">
+        <img src="../assets/img/brokoli-wireframe.png" alt="" class="order-2"/>
+        <div class="lg:order-2">
           <h4 class="mb-4 text-green-500">7/8 Preliminary Wireframes</h4>
           <div class="body-large">
             Creating a higher fidelity but still fairly preliminary version of

@@ -5,9 +5,10 @@
       class="grid bg-gradient-to-t from-sky-50 to-sky-200 gap-12 lg:grid-cols-2 pt-36"
     >
       <div class="px-6 lg:px-12 pt-24 pb-12">
-        <h2 class="mb-64">
+        <h2 class="lg:mb-64">
           Glosmed distributes eye surgery equipment all over Indonesia.
         </h2>
+        <img class="pt-24 pr-20 block lg:hidden mt-12" src="../assets/img/glosmed_cover.png" alt="" />
         <ul>
           <li>Timeline <span class="font-semibold">April - June 2022</span></li>
           <li>Team <span class="font-semibold">Myself</span></li>
@@ -17,7 +18,7 @@
           </li>
         </ul>
       </div>
-      <img class="pt-24 pr-20" src="../assets/img/glosmed_cover.png" alt="" />
+      <img class="pt-24 pr-20 hidden lg:block" src="../assets/img/glosmed_cover.png" alt="" />
     </div>
     <div class="container">
       <!-- Project Vision -->

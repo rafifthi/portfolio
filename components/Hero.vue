@@ -7,7 +7,7 @@
       </div>
       <div class="grid sm:flex lg:flex-wrap gap-4">
         <h1>RAFIF, A</h1>
-        <vue-typed-js :back-speed="100" :type-speed="100" :loop="true" :strings="['VISUAL', 'PRODUCT', 'GRAPHIC'] ">
+        <vue-typed-js :back-speed="100" :type-speed="100" :loop="true" :strings="['VISUAL', 'PRODUCT', 'GRAPHIC']">
           <h1 class="typing visual mt-5 ml-4"></h1>
         </vue-typed-js>
       </div>
