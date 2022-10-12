@@ -51,7 +51,7 @@
               <li class="group">
                 <a
                   target="_blank"
-                  href="https://bit.ly/ResumeRafifID"
+                  href="https://drive.google.com/file/d/1fZ67rs1IVAqag06F_8_y92WM4DKpahex/view?usp=sharing"
                   class="py-2 ml-6 flex group-hover:text-primary"
                   >Resume</a
                 >

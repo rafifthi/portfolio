@@ -21,7 +21,7 @@ export default {
     return {
       navigations: [
         { name: 'Email', href: 'mailto:rafifthii@gmail.com' },
-        { name: 'Resume', href: 'https://bit.ly/ResumeRafifID' },
+        { name: 'Resume', href: 'https://drive.google.com/file/d/1fZ67rs1IVAqag06F_8_y92WM4DKpahex/view?usp=sharing' },
         { name: 'dribbble', href: 'https://dribbble.com/rafifthi' },
         { name: 'LinkedIn', href: 'https://www.linkedin.com/in/rafifthi/' },
       ],
